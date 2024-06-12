@@ -8,5 +8,5 @@ public record DadosEpisodio(
         @JsonAlias("Title") String titulo,
         @JsonAlias("Episode") Integer numero,
         @JsonAlias("imdbRating") String avaliacao,
-        @JsonAlias("Realeased") String dataDeLancamento) {
+        @JsonAlias("Released") String dataDeLancamento) {
 }
